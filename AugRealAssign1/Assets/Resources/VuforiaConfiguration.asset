@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AS5yIFX/////AAAAmTB+zBuLX0oSs+q4IJCoZ32DRZFgshn/vq+FLHQXaZOtYm8w2oIr0zaPmA07HbVAhdskrrNjd1hha0N6FaRRRat/QGZ7XJRC5449dwm40lVM9Pfvk+zjDNzdSxeAe3ZCXxWxi2g2VEp9cpgVxvbCve5qf0a5iTlC396nlBhsGJv3/8FK/yfhQZGZOi7vIh+j0uBiEK4q/c2yPXD5hidyj709ebbjQbvgoA46kBOqlKivi4CGxjdkVe2jYpgXrAjjDFdqyjqZ2oxqUU/ydmnomgpjELoor/4plKiAgE8U3JiMLR4/jQ/5Fx32YWOy7t+K4xQvbhnjPPo+I8GJip5IrNYAk+S52G2zbB6sHcr0ynCw
     ufoLicenseKey: QWFnbmxhei8vLy8vQUFBQUtGdFZlZVJZUEVSUHRmc0J4d2haSHRReHROUmJZb2RRa0JNYTN4VHVTZlVia3ZKVUtlVUpBWXJhZ3I1dk14aXV3RXI3NUF1ZmZpRGdMd3VUK1MxeUljaUFzdjhyQi92cGlTSDd5UjlYSmZxakNMeXUvTHczVUtDRy9VazJrNGZkejYvdTEwMWlvdDJERXd2L0hEcDM3V2VxajBaQ1hmazVXdnVwemZJcUxFeUFlU3hUUXNZcjNUWTFGQmZzUlg1di90cVpxS1BPSFNiR1I2VU93NVBkU0xNMXFoTDNtdUN4N0pudkZqcWlEU3pzWm14eVVTdElyQ29nWFNHaU1lWE9FOHl1S2RrVGl1YkI5aGJ6MWgvWlRrdjRCL084dnZrTnZWNmxKUk41Ulh6ZVJvNDhONk5ZOENqK3lXRnZVaXBvRmtsZzNtdVp4czkwVEUyZSt0RytZcU42VGRNMW9ab2JEaUdQcTd6RnlDUUo=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -76,7 +76,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Logitech HD Webcam C310
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
