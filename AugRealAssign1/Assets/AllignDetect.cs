@@ -34,21 +34,32 @@ public class AllignDetect : MonoBehaviour {
     void updateColor(float forwardAllignVal, float rightAllginval)
     {
         float rgbvalue = 255;
-        colorQuare.GetComponent<Renderer>().material.color = new Color(forwardAllignVal, 1 + rightAllignValue, 0);
-        /*
-        if (forwardAllignValue > 0)
+        //colorQuare.GetComponent<Renderer>().material.color = new Color(forwardAllignVal, 1 + rightAllignValue, 0);
+        
+        if (forwardAllignValue > 0.5)
         {
 
             // int rvalue = (int) (255 - (255 * allignVal));
-            //Debug.Log(rvalue);
+            
+            //Debug.Log("forwardAllignVal > 0.5");
+            float allignvalueTurnedAround = 1 - forwardAllignValue;
+            allignvalueTurnedAround = 2 * allignvalueTurnedAround;
+            Debug.Log(allignvalueTurnedAround);
+            colorQuare.GetComponent<Renderer>().material.color = new Color(allignvalueTurnedAround, 255, 0);
 
-            colorQuare.GetComponent<Renderer>().material.color = new Color(1 - allignVal, 255, 0);
+        }
+        else if (forwardAllignVal > 0 && forwardAllignVal < 0.5)
+        {
 
+            
+            float allignvalueTurnedAround = forwardAllignValue * 2;
+            Debug.Log(forwardAllignValue);
+            colorQuare.GetComponent<Renderer>().material.color = new Color(255, allignvalueTurnedAround, 0);
+            
         }
         else
         {
-            colorQuare.GetComponent<Renderer>().material.color = new Color(255, 1 + allignVal, 0);
-            
-        }*/
+            colorQuare.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
+        }
     }
 }
