@@ -12,6 +12,7 @@ public class AllignDetect : MonoBehaviour {
     Color whateverColor = new Color(255, 0, 0, 1);
 
     public Vector3 spaceshipPos;
+    public Vector3 spaceshipPos2;
     public Vector3 landingVecForward;
     public Vector3 landingVecRight;
     // Use this for initialization
@@ -24,9 +25,10 @@ public class AllignDetect : MonoBehaviour {
         landingVecForward = gameObject.transform.forward;
         landingVecRight = gameObject.transform.right;
         spaceshipPos = Landing.forward;
+        spaceshipPos2 = Landing.right;
 
         forwardAllignValue = Vector3.Dot(landingVecForward, spaceshipPos);
-        rightAllignValue = Vector3.Dot(landingVecRight, spaceshipPos);
+        rightAllignValue = Vector3.Dot(landingVecRight, spaceshipPos2);
 
         updateColor(forwardAllignValue, rightAllignValue);
 	}
@@ -36,14 +38,14 @@ public class AllignDetect : MonoBehaviour {
         float rgbvalue = 255;
         //colorQuare.GetComponent<Renderer>().material.color = new Color(forwardAllignVal, 1 + rightAllignValue, 0);
         
-        if (forwardAllignValue > 0.5)
+        if (forwardAllignValue + rightAllignValue > 1)
         {
 
             // int rvalue = (int) (255 - (255 * allignVal));
             
             //Debug.Log("forwardAllignVal > 0.5");
-            float allignvalueTurnedAround = 1 - forwardAllignValue;
-            allignvalueTurnedAround = 2 * allignvalueTurnedAround;
+            float allignvalueTurnedAround = (forwardAllignValue + rightAllignValue) / 2;
+            allignvalueTurnedAround = 1 - allignvalueTurnedAround;
             Debug.Log(allignvalueTurnedAround);
             colorQuare.GetComponent<Renderer>().material.color = new Color(allignvalueTurnedAround, 255, 0);
 
