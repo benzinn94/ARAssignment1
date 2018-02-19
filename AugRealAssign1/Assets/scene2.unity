@@ -197,7 +197,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2815bb4837ae4d5f8072b841b08a2aab, type: 3}
+        m_Texture: {fileID: 2800000, guid: ccb47215552841d9b1e225d481b2ac7a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -220,7 +220,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.2897196, y: 0, z: 0.5}
+      m_Extent: {x: 0.28971964, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -273,7 +273,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 215694be00000000000000bf000000000000803f000000000000000000000000215694be000000000000003f000000000000803f00000000000000000000803f2156943e00000000000000bf000000000000803f000000000000803f000000002156943e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 225694be00000000000000bf000000000000803f000000000000000000000000225694be000000000000003f000000000000803f00000000000000000000803f2256943e00000000000000bf000000000000803f000000000000803f000000002256943e000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -352,7 +352,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 21d30a54b6e74f268f52e575aaa13281, type: 3}
+        m_Texture: {fileID: 2800000, guid: df8704b7a42a4419a6e5783afde29ec4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -502,7 +502,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4086568332390186, guid: aaf10b90d795af54a89d67705826ce1e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -785
       objectReference: {fileID: 0}
     - target: {fileID: 4086568332390186, guid: aaf10b90d795af54a89d67705826ce1e, type: 2}
       propertyPath: m_LocalPosition.y
@@ -542,6 +542,43 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 338015380}
+    - target: {fileID: 4086568332390186, guid: aaf10b90d795af54a89d67705826ce1e, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086568332390186, guid: aaf10b90d795af54a89d67705826ce1e, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086568332390186, guid: aaf10b90d795af54a89d67705826ce1e, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114073950481432494, guid: aaf10b90d795af54a89d67705826ce1e,
+        type: 2}
+      propertyPath: mTrackableName
+      value: earth-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114073950481432494, guid: aaf10b90d795af54a89d67705826ce1e,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/AugRealAssignmentCorrectUnits.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 114073950481432494, guid: aaf10b90d795af54a89d67705826ce1e,
+        type: 2}
+      propertyPath: mAspectRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114073950481432494, guid: aaf10b90d795af54a89d67705826ce1e,
+        type: 2}
+      propertyPath: mWidth
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114073950481432494, guid: aaf10b90d795af54a89d67705826ce1e,
+        type: 2}
+      propertyPath: mHeight
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf10b90d795af54a89d67705826ce1e, type: 2}
   m_IsPrefabParent: 0
@@ -611,15 +648,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4176628334025736, guid: 6235018c7ea1c954d83ed7d34a6b71ea, type: 2}
       propertyPath: m_LocalScale.x
-      value: 428
+      value: 10.182258
       objectReference: {fileID: 0}
     - target: {fileID: 4176628334025736, guid: 6235018c7ea1c954d83ed7d34a6b71ea, type: 2}
       propertyPath: m_LocalScale.y
-      value: 428
+      value: 10.182258
       objectReference: {fileID: 0}
     - target: {fileID: 4176628334025736, guid: 6235018c7ea1c954d83ed7d34a6b71ea, type: 2}
       propertyPath: m_LocalScale.z
-      value: 428
+      value: 10.182258
       objectReference: {fileID: 0}
     - target: {fileID: 33447492332588440, guid: 6235018c7ea1c954d83ed7d34a6b71ea,
         type: 2}
@@ -631,6 +668,31 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 632880195}
+    - target: {fileID: 114570990826655048, guid: 6235018c7ea1c954d83ed7d34a6b71ea,
+        type: 2}
+      propertyPath: mTrackableName
+      value: spaceship_pimped
+      objectReference: {fileID: 0}
+    - target: {fileID: 114570990826655048, guid: 6235018c7ea1c954d83ed7d34a6b71ea,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/AugRealAssignmentCorrectUnits.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 114570990826655048, guid: 6235018c7ea1c954d83ed7d34a6b71ea,
+        type: 2}
+      propertyPath: mAspectRatio
+      value: 1.7258064
+      objectReference: {fileID: 0}
+    - target: {fileID: 114570990826655048, guid: 6235018c7ea1c954d83ed7d34a6b71ea,
+        type: 2}
+      propertyPath: mWidth
+      value: 5.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114570990826655048, guid: 6235018c7ea1c954d83ed7d34a6b71ea,
+        type: 2}
+      propertyPath: mHeight
+      value: 10.182258
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114525223580078398, guid: 6235018c7ea1c954d83ed7d34a6b71ea, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6235018c7ea1c954d83ed7d34a6b71ea, type: 2}
@@ -669,15 +731,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4415638482942360, guid: 569db1c056f3d3548a7022b8a3576c84, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -478
+      value: -807
       objectReference: {fileID: 0}
     - target: {fileID: 4415638482942360, guid: 569db1c056f3d3548a7022b8a3576c84, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1200
+      value: 1195
       objectReference: {fileID: 0}
     - target: {fileID: 4415638482942360, guid: 569db1c056f3d3548a7022b8a3576c84, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4415638482942360, guid: 569db1c056f3d3548a7022b8a3576c84, type: 2}
       propertyPath: m_LocalRotation.x
@@ -698,6 +760,11 @@ Prefab:
     - target: {fileID: 4415638482942360, guid: 569db1c056f3d3548a7022b8a3576c84, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20906418787341306, guid: 569db1c056f3d3548a7022b8a3576c84,
+        type: 2}
+      propertyPath: field of view
+      value: 1.29178
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 569db1c056f3d3548a7022b8a3576c84, type: 2}

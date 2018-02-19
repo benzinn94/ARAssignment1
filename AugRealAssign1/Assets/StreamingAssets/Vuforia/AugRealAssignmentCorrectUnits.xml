@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Landing_pimped2" size="9.600000 26.208000" />
+    <ImageTarget name="spaceship_pimped" size="5.900000 10.182258" />
+    <ImageTarget name="earth-2" size="19.000000 19.000000" />
+    <ImageTarget name="spaceship_set-6" size="7.000000 9.506757" />
+    <ImageTarget name="fighter_pimped3" size="3.500000 4.666667" />
+    <ImageTarget name="Striker_pimped-8" size="3.000000 4.312500" />
+  </Tracking>
+</QCARConfig>
